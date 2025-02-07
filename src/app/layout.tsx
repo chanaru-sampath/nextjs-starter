@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import { ReactNode } from 'react';
 
 import { Geist, Geist_Mono } from 'next/font/google';
 
@@ -23,7 +22,7 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{
-  children: ReactNode;
+  children: React.ReactNode;
 }>) {
   return (
     <html lang="en">
