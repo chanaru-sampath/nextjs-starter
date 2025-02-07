@@ -1,0 +1,11 @@
+{
+  "cSpell.words": ["lintstagedrc", "trivago"],
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.useEditorConfig": false,
+  "prettier.configPath": ".prettierrc.mjs",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "always",
+    "source.fixAll.eslint": "explicit"
+  }
+}
